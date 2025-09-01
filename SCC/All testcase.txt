@@ -1,0 +1,30 @@
+5
+a ~b
+b ~c
+~c d
+d
+a d
+
+
+
+output:
+a true
+b false
+c false
+d true
+
+
+
+
+7
+a ~b
+b ~c
+~c d
+d
+a d
+c ~c
+~d
+
+
+output:
+NO assignment possible
